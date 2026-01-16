@@ -3,7 +3,7 @@ public class Array_FirstUniqueElement {
         
 
         for (int i=0 ;i <array.length;i++){// outer loop picks an element inner loop counts it
-            int frequency = 0;
+            int frequency = 0;// frequency is set to zero to reset the count for each new element
             for(int j =0;j<array.length;j++){
                 if(array[i]==array[j]){//if  in i= j then increase frequency
                     frequency++;
