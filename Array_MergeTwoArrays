@@ -1,0 +1,18 @@
+  /*COMMENT OUT ADJUST LATER ON
+    Write a return method that can concat two arrays
+     */
+
+import java.util.Array;
+public class Array_MergeTwoArrays {
+    public static int[] concatTwoArray(int[] arr1,int[] arr2){
+        int [] result =new int[arr1.length+arr2.length];
+        int = 0;
+        for(int i =0,i<arr1.length;i++){
+            result[i++]=each;
+        }
+        for(int i =0,i<arr2.length;i++){
+            result[i++]=each;
+        }
+        return result;
+    }
+}
