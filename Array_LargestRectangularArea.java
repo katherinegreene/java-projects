@@ -41,7 +41,7 @@
     public static void main(String[] args) {
         int[] histogram = {6, 2, 5, 4, 5, 1, 6};
 
-        int maxArea = largestRectangleArea(histogram);
+        int maxArea = Array_LargestRectangularArea(histogram);
 
         System.out.println("Largest Rectangular Area: " + maxArea);
     }
